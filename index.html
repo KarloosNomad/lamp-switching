@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Switching</title>
+    <link rel="stylesheet" href="css/lamp.css">
+
+</head>
+
+<body id="bodi">
+    <img src="images/switcher-off.png" id="switcher" alt="imagem de um interruptor">
+    <img src="images/lamp-dark.png" id="lamp" alt="imagem de uma lâmpada">
+    
+    <!-- images click control -->
+    <div id="on" onclick="lampInteraction('light')"></div>
+    <div id="off" onclick="lampInteraction('dark')"></div>
+    <div id="crashed" onclick="lampInteraction('broken')"></div>
+
+    <script src = "js/lamp.js"></script>
+</body>
+
+</html>

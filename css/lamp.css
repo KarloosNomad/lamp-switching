@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+#switcher{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#lamp{
+    width: 300px;
+    position: absolute;
+    top: -38px;
+    left: 30%;
+}
+
+div{
+    width: 60px;
+    height: 70px;
+    position: absolute;
+}
+
+#on{
+    right: 170px;
+    bottom: 200px;
+}
+
+#off{
+    right: 170px;
+    bottom: 107px;
+}
+
+#crashed{
+    width:185px;
+    height: 185px;
+    left: 468px;
+    top: 120px;
+    border-radius: 50%;
+}
